@@ -41,7 +41,7 @@ public:
     Vendor() : vendorId(-1), vendorName("Unknown"), numberOfViolations(0), numberOfAudits(0) {}
 
     // Constructor
-    Vendor(int id, const std::string& name)
+    Vendor(int id, const string& name)
         : vendorId(id), vendorName(name), numberOfViolations(0){}
 
     // Setters
